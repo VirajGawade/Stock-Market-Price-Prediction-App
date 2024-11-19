@@ -1,6 +1,6 @@
 # Stock-Market-Price-Prediction-App
 
-# Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Installation](#installation)

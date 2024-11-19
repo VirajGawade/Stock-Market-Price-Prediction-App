@@ -21,3 +21,7 @@
 ## About
 
 This application leverages machine learning algorithms to predict stock market prices, providing users with data-driven insights into potential market trends. By analysing historical price data and market indicators, the app aims to assist traders and investors in making informed decisions based on predicted price movements. We will be utilising **Google's Finance API** in order to fetch real-time and historical stock data - giving us confidence that we have up-to-date and accurate information to do our analysis/predictions.
+
+## System Architecture
+
+![Screenshot 2024-11-19 at 11 18 35](https://github.com/user-attachments/assets/f8960847-e587-4efc-91b0-4c27fac68059)

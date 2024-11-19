@@ -17,3 +17,7 @@
   - [Google Cloud](#google-cloud)
   - [Kubernetes](#kubernetes)
   - [Docker](#docker)
+
+## About
+
+This application leverages machine learning algorithms to predict stock market prices, providing users with data-driven insights into potential market trends. By analysing historical price data and market indicators, the app aims to assist traders and investors in making informed decisions based on predicted price movements. We will be utilising **Google's Finance API** in order to fetch real-time and historical stock data - giving us confidence that we have up-to-date and accurate information to do our analysis/predictions.

@@ -25,3 +25,7 @@ This application leverages machine learning algorithms to predict stock market p
 ## System Architecture
 
 ![Screenshot 2024-11-19 at 11 18 35](https://github.com/user-attachments/assets/f8960847-e587-4efc-91b0-4c27fac68059)
+
+## Cloud Architecture
+
+![Screenshot 2024-11-28 at 22 37 24](https://github.com/user-attachments/assets/6cd9e58a-c665-4186-99d9-99de415926df)

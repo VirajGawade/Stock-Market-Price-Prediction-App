@@ -35,13 +35,19 @@ Flask is the efficient way to be used as Python web framework that is innovated 
 One of the biggest strength that flask has is the adaptability, unlike other frameworks, as it does not enforce a specific project structure or force developers to adhere to strict regulations. This provides a better way to cause freedom to organise the appication in whatever way meets the developer's requirments. As well as this, Flask also helps in the integration with Jinja, that is considered to be a powerful templating engine, which allows dynamic generation of HTML content. In comparison with static HTML which only display a fixed content. This leads to the prevention of building moderns, and data-driven applications where content is constantly changing based on the backend requirements. 
 
 Through the consideration to the above, developers can easily insert Python as syntax into HTML files, such as variables, loops, and conditionals, which would make it simple to generate dynamic web pages based on the data, or the change of any external factors. This is a strong key that makes Flask very rapid for web application development. 
-## RESTful API
+
+## RESTFUL-API
+A REST API (Representational State Transfer Application Programming Interface), which is an architectural style that is used to create a networked applications for the purpose of collaboration. This is progressed by allowing different software components to communicate with each other over the web standard protocol HTTP (HyperText Transfer Protocol) methods such as GET, POST, PUT, DELETE, etc. 
+
+In 2000, the computer scientist Roy Fielding has completed his doctoral dissertation titled "Architectural Styles and the Design of Network-based Software Architectures", which after this completion the term "REST" began. In this dissertation the article outlined some guidance which are used to increase the level of concentration on the design of web services. The first point is "statelessness" which means that in order for a server to respond to the client's request, the request must contain all the needed information the server needs to process the request, and the server does not store any information of previous requests asked by clients. The second point is the "Client-Server Architecture", this contains the segregation between the UI (User Interface) and the server, each of the ends has a specific task, as the UI manages the user experience and the server manages the data and the business logic behind the UI (Backend). 
+
+Subsequently, the "uniform Interface" which is the collaboration between the UI with the API without needing to understand the underlying infrastructure. This is progressed by the utilisation of uniform set of regulations to help in the resources accessibility. The next term is the "cacheability", at each request being progressed at each time the process to deal with this request takes long to output the needed result, therefore at this process the server maintains the request by caching it and if this request been requested again by the user then it will be faster to procced than the first attempt. The last point is the "Layered System", which is the segregation of the layers considering each layer is responsible for a certain task, without the need for the client to know if there is interaction with other layers such as the database layer.
 
 
 ## CRUD Operations 
 
 
-## External API Usef
+## External API User
 
 
 ## Cloud Architecture

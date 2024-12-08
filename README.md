@@ -59,11 +59,11 @@ DELETE is for removing data
 Based on the above HTTP methods we receive different types of responses to check whether the resposes went successsfully or not. These responses are considered to be HTTP status codes which conveys whether the operation of the request is preformed or not, and based on these responses different actions are taken.
 
 ## 200 OK:
-This command determines that the request went successfuly. For example, 
+This command determines that the request went successfuly.
 ## 201 Created:
-The resource was successfully created 
+The resource was successfully created. 
 ## 204 No Content:
-The request was successful, but there is no content to return .
+The request was successful, but there is no content to return.
 ##  400 Bad Request: 
 The request was malformed or missing required data.
 ## 404 Not Found: 

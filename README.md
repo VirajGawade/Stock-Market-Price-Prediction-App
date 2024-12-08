@@ -46,6 +46,39 @@ Subsequently, the "uniform Interface" which is the collaboration between the UI 
 
 ## CRUD Operations 
 
+CRUD stands for Create, Read, Update and Delete, which are the four basic operations that are used to help in the interaction with the resources in the system. These operations are fundamental for managing data, and they used in the REST APIs for web services. These operations are considered to be HTTP methods by the correspondence to these operations. The first HTTP method is "GET", which is used to retrieve data, this is progressed by fetching the representation of the source from a specific URL in particularly (URI). However, this won't cause any changes to the server, it will only read the data. For example assuming that we need to retrieve the user's profile, then the following command would be GET/users/userID, which will return the user ID "userID". The next method is the "POST" HTTP method, which is used to innovate a new data or resources on the server. This is progressed by automatically assigning a unique URI to the most recent innovate resource and retrieves it. This method could be used in order to innovate new records in the database, or creating a new user profile. For example, POST/USERS which the return would be the URI of users/userID. The third method is the "PUT" method, which is used to update an existing resource to create a new resource at a specific URI (assuming that the server allows it). For example, PUT/users/userID which will modify the user with the "userID" with the new data being requested in the request. Lastly, is the "DELETE" HTTP method, which is used to remove an existing resource from the server at a specific URI. For example, DELETE/users/userID, this command would remove "userID" from the database. 
+
+## Simplified terms: 
+GET is for reading (retrieving) data,
+POST is for creating new data,
+PUT is for updating existing data,
+DELETE is for removing data
+
+
+## Method Responses
+Based on the above HTTP methods we receive different types of responses to check whether the resposes went successsfully or not. These responses are considered to be HTTP status codes which conveys whether the operation of the request is preformed or not, and based on these responses different actions are taken.
+
+## 200 OK:
+This command determines that the request went successfuly. For example, 
+## 201 Created:
+The resource was successfully created 
+## 204 No Content:
+The request was successful, but there is no content to return .
+##  400 Bad Request: 
+The request was malformed or missing required data.
+## 404 Not Found: 
+The resource was not found.
+## 405 Method Not Allowed:
+The HTTP method used is not supported for the requested resource.
+## 500 Internal Server Error:
+A general server error occurred (something went wrong on the server side).
+## 401 Unauthorized: 
+The request requires authentication.
+## 403 Forbidden: 
+The server understands the request but refuses to authorize it.
+
+
+
 
 ## External API User
 

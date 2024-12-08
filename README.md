@@ -82,6 +82,8 @@ The server understands the request but refuses to authorize it.
 
 ## External API User
 
+An API (Application Programming Interface) is a set of rules and tools that allow different software applications to communicate with each other. It acts like a contract between the provider (who offers the data or service) and the consumer (who uses the data or service). The API defines what information the consumer needs to send (the request) and what kind of response the provider will give back.
+
 
 ## Cloud Architecture
 

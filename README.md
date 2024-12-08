@@ -38,10 +38,12 @@ Through the consideration to the above, developers can easily insert Python as s
 ## RESTful API
 
 
-CRUD Operations 
+## CRUD Operations 
 
 
-External API Usef
+## External API Usef
+
+
 ## Cloud Architecture
 
 ![Screenshot 2024-11-28 at 22 37 24](https://github.com/user-attachments/assets/6cd9e58a-c665-4186-99d9-99de415926df)

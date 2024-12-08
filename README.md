@@ -34,7 +34,7 @@ Flask is the effecient way to be used as Python web framework that is innovated 
 
 One of the biggest strength that flask has is the adaptability, unlike other frameworks, as it does not enforce a specific project structure or force developers to adhere to strict regulations. This provides a better way to cause freedom to organise the appication in whatever way meets the developer's requirments. As well as this, Flask also helps in the integration with Jinja, that is considered to be a powerful templating engine, which allows dynamic generation of HTML content. In comparison with static HTML which only display a fixed content. This leds to the prevention of building moderns, and data-driven applications where content is contantly changing based on the backend requirments. 
 
-Through the consideration to the abive, developers can easily insert Pyhton as syntax into HTML files, such as variables, loops, and conditionals, which would make it simple to generate dynamic web pages based on the data, or the change of any external factors. This is a strong key that makes Flask very for web application development.
+Through the consideration to the abive, developers can easily insert Pyhton as syntax into HTML files, such as variables, loops, and conditionals, which would make it simple to generate dynamic web pages based on the data, or the change of any external factors. This is a strong key that makes Flask very rapid for web application development.
 
 ## RESTful API
 

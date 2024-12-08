@@ -29,7 +29,7 @@ This application leverages machine learning algorithms to predict stock market p
 
 ## Application Architecture
 
-## Flask app
+## Flask App
 Flask is the effecient way to be used as Python web framework that is innovated to produce a web development in an easier and more smoother way. It is very populat method that most of the developers use to simplify their flexability in order to come up with an easier way to produce a website developed in Pyhton. This is progressed through the advantages that Flask has when it collaborates with Python, such as it contributes to minimal setup, it only require a single Pyhton file to start with, and then the development could be progressed after this step. It is also a realiable initial point to be used for beginners as well as thos who are looking to develop small to medium livel of applications without considering a step learning curve. 
 
 One of the biggest strength that flask has is the adaptability, unlike other frameworks, as it does not enforce a specific project structure or force developers to adhere to strict regulations. This provides a better way to cause freedom to organise the appication in whatever way meets the developer's requirments. As well as this, Flask also helps in the integration with Jinja, that is considered to be a powerful templating engine, which allows dynamic generation of HTML content. In comparison with static HTML which only display a fixed content. This leds to the prevention of building moderns, and data-driven applications where content is contantly changing based on the backend requirments. 

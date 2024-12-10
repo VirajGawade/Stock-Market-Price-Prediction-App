@@ -89,7 +89,6 @@ An API (Application Programming Interface) is a set of rules and tools that allo
 
 ![Screenshot 2024-11-28 at 22 37 24](https://github.com/user-attachments/assets/6cd9e58a-c665-4186-99d9-99de415926df)
 
-
 ## Cloud Infrastructure
 
 Cloud computing infrastructure consists of the essential hardware and software components that enable cloud services. It provides on-demand access to computing resources such as servers, storage, networking, and virtualization. Cloud Infrastructure is attractive because acquiring computing resources to run applications or store data the traditional way requires time and capital. Its virtualization technology allows multiple virtual machines to run on one physical server. User interfaces such as dashboards and APIs enable users to manage cloud resources, while management software automates and monitors the infrastructure. Together, these components deliver scalable, flexible, and on-demand access to computing resources over the internet.

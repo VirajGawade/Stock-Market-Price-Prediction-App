@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    cloud.google.com/neg: '{"ingress":true}'
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"flaskapp-service","namespace":"default"},"spec":{"ports":[{"port":80,"protocol":"TCP","targetPort":5000}],"selector":{"app":"flaskapp"},"type":"LoadBalancer"}}
+  creationTimestamp: "2024-12-09T22:10:01Z"
+  finalizers:
+  - service.kubernetes.io/load-balancer-cleanup
+  name: flaskapp-service
+  namespace: default
+  resourceVersion: "139050"
+  uid: 52a5615d-7589-479f-a4fc-d616c6486fee
+spec:
+  allocateLoadBalancerNodePorts: true
+  clusterIP: 34.118.229.224
+  clusterIPs:
+  - 34.118.229.224
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 30524
+    port: 80
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: flaskapp
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer:
+    ingress:
+    - ip: 34.133.199.102
+      ipMode: VIP

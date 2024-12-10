@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #28a745;
+        }
+        #error-message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Prediction App</h1>
+    <form id="predictionForm">
+        <input type="text" id="stockSymbol" name="stockSymbol" placeholder="Enter Stock Symbol" required>
+        <input type="date" id="startDate" name="startDate" placeholder="Start Date" required>
+        <input type="date" id="endDate" name="endDate" placeholder="End Date" required>
+        <button type="submit">Get Prediction</button>
+    </form>
+    <div id="result"></div>
+    <div id="error-message"></div>
+    <script>
+        document.getElementById("predictionForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+            const stockSymbol = document.getElementById("stockSymbol").value;
+            const startDate = document.getElementById("startDate").value;
+            const endDate = document.getElementById("endDate").value;
+
+            try {
+                const response = await fetch("http://34.133.199.102/predict", { <!-- Added http:// -->
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        stock_symbol: stockSymbol,
+                        start_date: startDate,
+                        end_date: endDate
+                    }),
+                });
+
+                const data = await response.json();
+                if (data.prediction) {
+                    document.getElementById("result").innerText = `Predicted Stock Price: $${data.prediction}`;
+                    document.getElementById("error-message").innerText = '';
+                } else {
+                    throw new Error(data.error || "Unknown error occurred");
+                }
+            } catch (error) {
+                document.getElementById("result").innerText = '';
+                document.getElementById("error-message").innerText = `Error: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html>

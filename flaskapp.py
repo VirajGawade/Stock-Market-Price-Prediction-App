@@ -1,10 +1,13 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 import yfinance as yf
 import numpy as np
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 
 # Load the pre-trained model
 MODEL_PATH = "stock_prediction_model.h5"
@@ -47,7 +50,8 @@ def predict_stock_price(stock_symbol, start_date, end_date):
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Welcome to the Stock Prediction API!"})
+    # Serve the updated stockmarketui.html file
+    return send_from_directory('.', 'stockmarketui.html')
 
 
 @app.route('/health', methods=['GET'])
@@ -73,3 +77,4 @@ def predict():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
+

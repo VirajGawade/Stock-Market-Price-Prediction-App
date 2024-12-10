@@ -3,3 +3,4 @@ yfinance
 numpy
 tensorflow
 scikit-learn
+flask-cors

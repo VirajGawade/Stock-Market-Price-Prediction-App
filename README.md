@@ -98,15 +98,21 @@ Cloud infrastructure delivers the same functionalities as physical infrastructur
 It is available for private, public, and hybrid cloud environments, and businesses can also rent infrastructure components through Infrastructure as a Service (IaaS) from a cloud provider. Cloud providers offer backup and disaster recovery features. Storing data in the cloud rather than locally can help prevent data loss in the event of an emergency, such as hardware malfunction, malicious threats, or even simple user error. The distribution of resources provides several benefits, including redundancy in case of failure and reduced latency by locating resources closer to clients.  
 
 
-## Cloud SQL
+## Google Cloud Firestore
 
-Cloud SQL is a fully managed relational database service that offers a cost-effective solution for running databases in the cloud. It handles all database administration tasks, so one can manage and utilize data, rather than dealing with routine database maintenance. With Cloud SQL, it is simpler to set up and manage popular databases such as MySQL, PostgreSQL, and SQL Server, without in-depth administrative knowledge or complex configurations.
+Firestore, also known as Google Cloud Firestore, is a cloud-based NoSQL database designed for developers to build scalable, high-performance applications. It organizes data into collections and documents, using a JSON-like structure that allows for nested data and subcollections.
 
-One of the key features of Cloud SQL is its ability to scale easily, so that databases can grow with your business needs. It offers high availability, providing automatic failover and backup mechanisms that ensure your data is always accessible. Security is a critical aspect of Cloud SQL, as it provides built-in encryption, access control, and other security features to protect your data both at rest and in transit.
+One of Firestore's standout features is real-time synchronization, where changes made to the database are instantly reflected across all connected devices, making it ideal for collaborative and interactive apps such as chat systems or live dashboards. Additionally, it supports offline data access, enabling users to read and write data locally, with changes automatically synced to the cloud once the device reconnects.
 
-Cloud SQL is designed to handle large volumes of traffic and data processing efficiently, making it ideal for applications that require high performance and reliability. The service includes automated backups, point-in-time recovery, and other disaster recovery features that safeguard your data from potential loss. Furthermore, Cloud SQL is compliant with various industry standards and certifications, such as GDPR, HIPAA, and SOC 2, which helps organizations meet regulatory and compliance requirements.
+Firestore is highly scalable, capable of handling small projects to enterprise-level applications. It provides powerful querying capabilities, automatic indexing, and built-in security through Firebase Authentication and customizable rules. Firestore integrates seamlessly with Firebase and Google Cloud services, making it suitable for web, mobile, and IoT applications requiring speed, reliability, and flexibility.
 
-With its user-friendly management tools, Cloud SQL simplifies database maintenance, deployment, and scaling, offering a seamless experience for developers and businesses. Whether you're building a small application or a large enterprise system, Cloud SQL provides a robust and reliable database solution in the cloud.
+## FIREBASE
+
+Firebase is a comprehensive platform by Google designed to simplify the development and management of web, mobile, and serverless applications. It provides tools for real-time data synchronization, authentication, cloud storage, hosting, and serverless backend solutions with Cloud Functions. Developers can use its NoSQL databases, Realtime Database, and Cloud Firestore to store and sync data efficiently.
+
+Firebase also offers analytics, crash reporting, performance monitoring, and Firebase Cloud Messaging for targeted push notifications. With integrated machine learning tools, it supports ready-to-use and custom models for tasks like image recognition or text translation. Its scalability, cross-platform compatibility, and serverless architecture make it a popular choice for building dynamic and engaging applications quickly.
+
+
 
 ## DOCKER
 

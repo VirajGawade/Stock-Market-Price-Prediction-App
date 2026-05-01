@@ -1,4 +1,14 @@
-# Stock-Market-Price-Prediction-App
+# Stock Market Price Prediction App
+
+## 🎓 Group Project — MSc Big Data Science
+**Queen Mary University of London, 2024**
+
+A collaborative machine learning application that predicts 
+stock market prices using LSTM neural networks, deployed 
+with Flask, Docker, and Google Cloud/Kubernetes.
+
+**Tech Stack:** Python · TensorFlow · Flask · Docker · 
+Google Cloud · Kubernetes · REST API
 
 ## Table of Contents
 

@@ -1,6 +1,6 @@
 # Stock Market Price Prediction App
 
-## 🎓 Group Project — MSc Big Data Science
+## 🎓 Group Project - MSc Big Data Science
 **Queen Mary University of London, 2024**
 
 A collaborative machine learning application that predicts 

@@ -10,7 +10,7 @@ Flask REST API, containerised with Docker and deployed on Google Cloud using Kub
 
 ## My contribution
 The team worked together on all parts of the project - data pipeline, LSTM model,
-Flask API, and Docker/Kubernetes deployment on Google Cloud – coding jointly on one machine.
+Flask API, and Docker/Kubernetes deployment on Google Cloud - coding jointly on one machine.
 
 ## How it works
 1. Fetches historical stock price data using yfinance

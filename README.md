@@ -1,6 +1,6 @@
 # Stock Market Price Prediction App
 
-Group project (4 members) – MSc Big Data Science, Queen Mary University of London (2024).
+Group project (4 members) - MSc Big Data Science, Queen Mary University of London (2024).
 Graded 14/15.
 
 Predicts stock closing prices with an LSTM model and serves predictions through a
@@ -9,7 +9,7 @@ Flask REST API, containerised with Docker and deployed on Google Cloud using Kub
 **Tech:** Python · TensorFlow/Keras · Pandas · NumPy · Flask · Docker · Kubernetes · Google Cloud
 
 ## My contribution
-The team worked together on all parts of the project – data pipeline, LSTM model,
+The team worked together on all parts of the project - data pipeline, LSTM model,
 Flask API, and Docker/Kubernetes deployment on Google Cloud – coding jointly on one machine.
 
 ## How it works
